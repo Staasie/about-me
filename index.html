@@ -3,15 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Staas</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Guessing Game</title>
 </head>
-
 <body>
-  <main>
-    <section>
-      <h1>A little about me!</h1>
-      <p id="displayName"></p>
+  <h1>Welcome to the Guessing Game</h1>
+  <button id="startGameButton">Start Game</button>
+  <p id="welcomeMessage"></p>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="app.js"></script>
+</body>
+</html>
+
+<main>
+  <body>
+  <header>
+    <h1>A Little Bit About Me</h1>
+  </header>
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! My name is Staas im 25 and work 2 jobs, i have 2 pets by the names of Loki and Zii and they are my whole life! Everything i do i do for them in hopes to beter their lives. ive been working sense the age of 16 and have never stopped -during covid and dont plan to, Ive been told im a little bit og a worke aholic hense the 2 jobs, i get bored eaisy and like to keep my mind active!
+    <br>
+    I've been learning ukulele for about 7 years not and its an off an on thing and ive been doing sign language for about 5+ years as well, something about a language that takes so much emotion without ever making a sound is so beautiful to me!</p>
+    <h3>Education</h3>
+    <p>I graduated from Fir Ridge High School in 2017 about 6 months early so that i could work full time and not have to worry about being in school!
+    im currently in codeing classes so hopfully get a job in either web design or general IT!</p>
+    <h3>work experiance</h3>
+    <p>Currently I work at a warehouse and i work in an arcade i like the nice middle that they provide, one allows me to talk to people nonestop and have good interactions and make poeple laugh and have a good time where as the other allows me to wear headphones and jam out while getting my work done indepentantly without the addition of having to speak to almost anyone. Ive been with Gopuff for a little under 3 years and ive been at Dave And Busters for almost a year!
+   before i worked both of my current jobs i worked at a different arcade called Wunderland and i was there just under 5 years!! thats what initally spiked my love for the tech behind things!</p>
+    <h3>Goals</h3>
+     <p>my goals for the upcoming 3 years are to finish this coding school and get my certification, get my dog into school so hes less people agressing so i can take him more places and show him the world, and move to a place with a yard cause he deserves that!</p>
+     <ol>
+      <p> heres a top ten list of my favorate games, sense i stream on the side i feel its fitting!</p>
+
+      <li> <strong> Skyrim </strong></li>
+      <li> <strong> Dead By Daylight </strong></li>
+      <li> <strong> Fortnite </strong></li>
+      <li> <strong> Minecraft </strong></li>
+      <li> <strong> Lethal Company </strong></li>
+      <li> <strong> Call Of Duty Modern Warfare 19 </li>
+      <li> <strong> 7 Days To Die </strong></li>
+      <li> <strong> GTA </strong></li>
+      <li> <strong> Red Dead Redemption </strong></li>
+      <li> <strong> anything vr! </strong></li>
+
+    </ol>
+  </section>
+  <div id="game">
+    <p id="welcomeMessage"></p>
+    <button onclick="startGame()">Start the Guessing Game</button>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</main>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 
         
       <p>
         Hello hello, my name’s Staas! I initially got into coding because I wanted to do game and website design. I graduated from high school in 2017 about 6 months early to work full-time and have been working since! My first job was at a restaurant, and I worked there for about 2 years. I then started working at an arcade called Wunderland and stayed there for about 5 years. That job sparked my interest in coding because I had to actively fix the games daily.
@@ -20,78 +75,7 @@
         After leaving, I worked at a warehouse called Gopuff for nearly 2 years until my position was eliminated. I later returned because I genuinely enjoy the work. In my opinion, staying with a company for 2 years is the minimum to show I’ve tried my best to advance but not so long that I feel like I’m wasting time. After finishing my coding certification, I plan to study at "Phagins School of Hair and Design" to get a cosmetology license. I may not pursue a career in beauty, but it’s an opportunity I don't want to waste!
       </p>
     </section>
-    
-    <!-- <form id="questionForm">
-      <fieldset>
-          <legend>Answer My Questions</legend>
-          <p><strong>1. Does Staas have only one pet? Yes or No?</strong></p>
-            <label for="answer-me">1.</label>
-            <input type="text" id="answer-me">
 
-           <input type="submit" value="submit"></input>
-            <div id="answer1-display"></div>
-
-           <p><strong>2. Does Staas work two jobs? Yes or No?</strong></p>
-            <label for="answer-me">2.</label>
-            <input type="text" id="answer-me">
-
-           <input type="submit" value="submit"></input>
-            <div id="answer2-display"></div>
-
-           <p><strong>3. Does Staas know sign language? Yes or No?</strong></p>
-            <label for="answer-me">3.</label>
-            <input type="text" class="answer-me">
-
-           <input type="submit" value="submit"></input>
-            <div id="answer1-display"></div>
-
-           <p><strong>4. Is Staas's favorite color green? Yes or No?</strong></p>
-            <label for="answer-me">4.</label>
-            <input type="text" class="answer-me">
-
-           <input type="submit" value="submit"></input>
-            <div id="answer4-display"></div>
-           <p><strong>5. Does Staas play ukulele? Yes or No?</strong></p>
-            <label for="answer-me">5.</label>
-            <input type="text" class="answer-me">
-
-           <input type="submit" value="submit"></input>
-           <div id="answer5-display"></div>
-        </fieldset>
-      </form>-->
-      <form id="questionForm">
-        <fieldset>
-            <legend>Answer My Questions</legend>
-    
-            <p><strong>1. Does Staas have only one pet? Yes or No?</strong></p>
-            <label for="answer1">1.</label>
-            <input type="text" id="answer1-input">
-            <div id="answer1-display"></div>
-    
-            <p><strong>2. Does Staas work two jobs? Yes or No?</strong></p>
-            <label for="answer2">2.</label>
-            <input type="text" id="answer2-input">
-            <div id="answer2-display"></div>
-    
-            <p><strong>3. Does Staas know sign language? Yes or No?</strong></p>
-            <label for="answer3">3.</label>
-            <input type="text" id="answer3-input">
-            <div id="answer3-display"></div>
-    
-            <p><strong>4. Is Staas's favorite color green? Yes or No?</strong></p>
-            <label for="answer4">4.</label>
-            <input type="text" id="answer4-input">
-            <div id="answer4-display"></div>
-    
-            <p><strong>5. Does Staas play ukulele? Yes or No?</strong></p>
-            <label for="answer5">5.</label>
-            <input type="text" id="answer5-input">
-            <div id="answer5-display"></div>
-    
-            <input type="submit" value="Submit">
-        </fieldset>
-    </form>
-      
     <section> 
       <ol>
         <p> heres a top ten list of my favorate games, sense i stream on the side i feel its fitting!</p>
@@ -109,9 +93,9 @@
 
       </ol>
     </section>
-    </main>
+    </main> -->
 
   <!-- Load app.js and execute yourName() after the HTML loads -->
-  <script src="app.js"></script>
+  <!-- <script src="app.js"></script>
 </body>
-</html>
+</html> -->

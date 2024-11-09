@@ -1,4 +1,68 @@
-main{
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, section {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+header {
+  background-color: #75c178;
+  color: rgb(0, 36, 1);
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 22px;
+  text-decoration: underline;
+  padding-right: 320px;
+  text-align: center;
+  color: #000000;
+}
+
+#game {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main {
+  background-color: rgb(192, 247, 192);
+}
+
+main p {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: rgb(83, 105, 83);
+  text-decoration-thickness: 5px;
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main{
   background-color: rgb(188, 230, 188);
 }
 
@@ -19,4 +83,4 @@ main p{
 
 .answer1 {
   
-}
+} */
