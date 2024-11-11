@@ -26,8 +26,13 @@ function startGame() {
     }
   }
 
+
+
+
+
+
+
   alert(`Thanks for playing, ${userName}! You got ${correctAnswers} out of 5 questions correct. You really did pay attention, huh! :)`);
-  // / Guess the number
 
 
   let guessANumber = 'What number am I thinking of between one and 20';
@@ -57,48 +62,49 @@ function startGame() {
       alert('Oooo, too high! Try again.');
     }
   };
-  // Guessing Game //fix this for yourself to fit your page later and then acp again
-  // let userPoints = 0;
+
+  GuessingGame //fix this for yourself to fit your page later and then acp again
+  let userPoints = 0;
   
-  // console.log('Welcome to Jason\'s page!');
+  console.log('Welcome to Jason\'s page!');
   
-  // // Guessing Game
-  // alert('Welcome to my guessing game!');
+  // Guessing Game
+  alert('Welcome to my guessing game!');
   
-  // let user = prompt('What is your name?');
-  // // Ensure the user provides a name (not null or empty)
-  // while (!user) {
-  //     user = prompt('Come on! Just tell me your name');
-  // }
-  // let firstName = user;
+  let user = prompt('What is your name?');
+  // Ensure the user provides a name (not null or empty)
+  while (!user) {
+      user = prompt('Come on! Just tell me your name');
+  }
+  let firstName = user;
   
-  // // Movie list
-  // let favMovie = ['Indiana Jones & the Temple of Doom', 'Matrix', 'Star Wars', 'Snatch', 'Happy Gilmore'];
-  // let correctAnswer = 'Star Wars';
+  // Movie list
+  let favgame = ['DBD', 'Dayz', 'Fortnite', 'ESO', 'Minecraft'];
+  let correctAnswer = 'Minecraft';
   
-  // alert('Try to guess Jason\'s favorite movie from the following list: ' + favMovie.join(', ') + '. You have 5 tries!');
+  alert('Try to guess Staas favorite game: ' + favgame.join(', ') + '. You have 5 tries!');
   
-  // let guessedCorrectly = false; // Track if the correct movie is guessed
+  let guessedCorrectly = false; // Track if the correct movie is guessed
   
-  // for (let i = 0; i < 5; i++) {
-  //     let answer = prompt('Guess the favorite movie!').trim();
+  for (let i = 0; i < 5; i++) {
+      let answer = prompt('Guess the favorite game!').trim();
       
-  //     if (answer === correctAnswer) {
-  //         userPoints++;
-  //         alert('Correct! Jason\'s favorite movie is indeed ' + correctAnswer + '.');
-  //         guessedCorrectly = true; // Set flag to true to indicate correct guess
-  //         break; // Exit the loop if guessed correctly
-  //     } else {
-  //         alert('Incorrect guess. Try again!');
-  //     }
-  // }
+      if (answer === correctAnswer) {
+          userPoints++;
+          alert('Correct! Staas\'s favorite game is indeed ' + correctAnswer + '.');
+          guessedCorrectly = true; // Set flag to true to indicate correct guess
+          break; // Exit the loop if guessed correctly
+      } else {
+          alert('Incorrect guess. Try again!');
+      }
+  }
   
-  // // Final alert
-  // if (!guessedCorrectly) {
-  //     alert('You\'ve used all your guesses! The correct answer was ' + correctAnswer + '.');
-  // }
+  // Final alert
+  if (!guessedCorrectly) {
+      alert('You\'ve used all your guesses! The correct answer was ' + correctAnswer + '.');
+  }
   
-  // alert('Greetings ' + firstName + '! You have ' + userPoints + ' point(s). Thanks for playing!');
+  alert('Greetings ' + firstName + '! You have ' + userPoints + ' point(s). Thanks for playing!');
 
 
 }

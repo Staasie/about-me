@@ -35,6 +35,8 @@ main {
 }
 
 main p {
+  border: 2px dashed black; /* or whatever style you want */
+  padding: 10px; /* Adjust the padding as needed */
   border-style: dashed;
   border-width: 5px;
   border-color: rgb(83, 105, 83);
@@ -43,6 +45,27 @@ main p {
   color: black;
   font-weight: bolder;
 }
+
+body h1 {
+  background-color:  rgb(192, 247, 192);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+ol {
+  border: 2px dashed black; /* or whatever style you want */
+  padding: 25px; /* Adjust the padding as needed */
+  border-style: dashed;
+  border-width: 5px;
+  border-color: rgb(83, 105, 83);
+  text-decoration-thickness: 5px;
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+}
+
 
 
 
